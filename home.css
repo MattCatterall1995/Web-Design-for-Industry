@@ -1,0 +1,261 @@
+body { width: 98%;
+        margin: 0 auto;
+        padding-top: 10px;
+       }
+#main-div {
+            width: 100%;
+            background-image: url(home-background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            height: 58em;
+            
+            }
+#main-footer {
+            height: 10em;
+            }
+#main-footer-image {
+            height: inherit;
+            width: 100%;
+                    }
+#main-banner {width: 80%;
+            margin: auto;
+            height: 4em;
+            }
+#main-banner-logo {
+                float: left;
+                height:100%;
+                }
+#nav {
+    height: 25px;
+    width: 100%;
+    
+    }
+#main-nav { 
+            padding-top: 20px;
+            float: right;
+            list-style: none;
+            display: inline-block;
+            height: 25px;
+            width: 40%;
+        }
+.main-nav-links {display: inline;
+    font-family: Gotham-Book, Arial;
+    font-size: 18px;
+    
+    text-align: center;}
+
+.nav-hover:hover {
+                border-bottom: 2px solid black;
+                }
+.nav-links {
+            color: black;
+            text-decoration: none;
+            }
+.nav-links:hover {
+    border-bottom: 2px solid black;
+}
+#main-div-search {
+                height: 38em;
+                width: 70%;
+                margin: 0 auto; 
+                }
+#main-div-search-fields {
+            height: 4em;
+            max-height: 4em;
+            }
+
+#main-div-focus-links {
+                width: 100%;
+                height: auto;
+                }
+h1 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 48px; 
+    }
+h2 {
+    font-family: Arial;
+    font-weight: normal;
+    font-weight: normal;
+    font-size: 36px;
+    }
+#input-field1 {
+    width: 20em;
+            }
+#input-field2 {
+    width: 10em;
+    background: url(black-triangle.png);
+    background-size: 40px,40px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: white;
+}
+#input-field3 {
+    width: 10em;
+    background: url(black-triangle.png);
+    background-size: 40px,40px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: white;
+}
+#input-field4 {
+    width: 10em;
+    background: url(black-triangle.png);
+    background-size: 40px,40px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: white;
+}
+.input-fields {
+            
+            border: none;
+            height: 3em;
+            padding-left: 5px;
+            color: black;
+            font-family: Arial;
+            font-size: 18px;
+            }
+#submit-button {
+            
+            border: 2px solid black;
+            height: 4em;
+            width: 6em;
+            bottom: 0;
+            
+            }
+#submit-button:focus {
+            
+            border: none;
+            }
+.focus-link-headings {
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: normal;
+    }
+#focus-links-sub1-category1 {
+        text-decoration: none;
+        width: 35%;
+        float: left;
+        list-style: none;
+        color: white;
+        }
+#focus-links-sub1-category2 {
+        text-decoration: none;
+        padding-top: 10px;
+        padding-bottom: 10px;    
+        width: 35%;
+        float: right;
+        list-style: none;
+        color: white;
+        }
+#focus-links-sub2-category1 {
+        list-style: none;
+        width: 20%;
+        float: left;
+        }
+#focus-links-sub2-category2 {
+        list-style: none;
+        width: 20%;
+        float: right;
+        }
+#focus-links-sub2-category3 {
+        list-style: none;
+        width: 30%;
+        padding-left: 195px;
+        padding-top: 17px;
+        
+        z-index: 2;
+        
+        }
+.sub-links {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: bold;
+        width: auto;
+        }
+.sub-links:hover {
+        border-bottom: 2px solid white;
+        }
+.category2-links {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        }
+#main-div-focus-subsection1 {
+        width: 40%;
+        float: left;
+    }
+#main-div-focus-subsection2 {
+        width: 40%;
+        float: right;
+        height: 15em;
+    }
+a {color:white;
+    text-decoration: none;}
+#main-div-featured-jobs {
+    height: 125em;
+    
+}
+#featured-jobs-list {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+#featured-jobs-heading {
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: normal;
+    width: 7em;
+    border-bottom: 2px solid purple;
+}
+#featured-jobs-first-group {
+        height: 30em;
+        width: 70%;
+        margin: 0 auto;
+        }
+#featured-jobs-second-group {
+        height: 30em;
+        width: 70%;
+        margin: 0 auto;
+        }
+#featured-jobs-third-group {
+        height: 30em;
+        width: 70%;
+        margin: 0 auto;
+        }
+#first-job {
+    width: 27%;
+    height: 100%;
+    position: relative;
+    top: -22px;
+    float: left;
+    z-index: 1;
+}
+#second-job {
+    width: 27%;
+    height: 100%;
+    z-index: 1.5;
+    padding-left: 375px;
+}
+#third-job {
+    width: 27%;
+    height: 100%;
+    z-index: 1.75;
+    position: relative;
+    top: -500px;
+    left: 750px;
+   
+}
+.job-headings {
+    font-family: Arial;
+    font-size: 24px;
+    }
+.job-salary {
+    font-family: Arial;
+    font-size: 20px;
+    }
+.job-descrip {
+    font-family: Arial;
+    font-size: 18px;
+    }
+
