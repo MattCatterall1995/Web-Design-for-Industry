@@ -1,0 +1,348 @@
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 900px;
+    
+}
+#menu-overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #db3dff;
+    opacity: 0.9;
+    z-index: 2; 
+    cursor: pointer;
+    overflow-y: scroll;
+    
+}
+#overlay-banner {
+    width: 80%;
+    margin: 0 auto;
+    height: 3em;
+    margin-top: 100px;
+}
+#overlay-close {
+    height: auto;
+    width: 2em;
+    float: right;
+}
+#menu-container {
+    width: 30%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 40em;
+    
+}
+#menu-container-menu {
+    
+    margin: 0 auto;
+    min-width: 560px;
+    height: 50%;
+}
+#menu-list {
+    padding-left: 0;
+    width: 40%;
+    margin: 0 auto;
+    
+}
+.menu-items {
+    list-style: none;
+    font-family: Arial;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.menu-items2 {
+    list-style: none;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.menu-items:hover {
+    color: black;
+}
+.menu-items2:hover {
+    color: black;
+}
+body {
+    margin-top: 0;
+}
+#main-banner {
+    background-image:url(whitebackground.png);
+    
+    height: 6em;
+    width: 98%;
+    margin: 0 auto;
+    margin-left: 11px;
+    border-bottom: 2px solid purple;
+    vertical-align: middle;
+    position:fixed;
+    z-index: 999;
+}
+#banner-number:hover {
+    border: none;
+}
+#banner-content-area {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
+#hunter-dunning-logo {
+    display: block;
+    height: 65%;
+    width: 12em;
+    float: left;
+   
+}
+#banner-nav {
+    float: right;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 2;
+}
+.banner-nav-list {
+    list-style: none;
+    display: inline;
+    font-family: Arial;
+    font-size: 18px;
+    color: black;
+    
+}
+.banner-nav-list:hover {
+    border-bottom: 2px solid black;
+}
+#menu-overlay-icon {
+    height: auto;
+    width: 2.5em;
+    display: inline-block;
+}
+#overlay-icon-container {
+    list-style: none;
+    display: inline;
+}
+a {
+    text-decoration: none;
+}
+#main-content-area {
+    height: 40em;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+#contact-details-content {
+    width: 45%;
+    margin: 0 auto;
+    height: 40em;
+    padding-top: 12em;
+}
+h1 {
+    font-family: Arial;
+    font-size: 24px;
+    word-break: break-all;
+}
+.contact-subtext {
+    font-family: Arial;
+    font-size: 18px;
+    word-break: break-all;
+}
+#clock-icon {
+    height: 2em;
+    width: 2em;
+    display: block;
+    float: left;
+}
+#left-section {
+    width: 30%;
+    float: left;
+    height: 10em;
+    
+    
+}
+#right-section {
+    width: 60%;
+    float: right;
+    height: 10em;
+}
+#address-icon {
+    height: 1.6em;
+    width: 1.1em;
+    display: block;
+    float: left;
+}
+#address {
+    list-style: none;
+    margin-top: 0px;
+}
+#phone-icon {
+    height: 2em;
+    width: 2em;
+    display: block;
+    float: left;
+}
+#mail-icon {
+    height: 2em;
+    width: 2em;
+    display: block;
+    float: left;
+}
+.address-lines {
+    font-family: Arial;
+    font-size: 16px;
+    color: grey;
+    word-break: break-all;
+}
+#contact-footer-image {
+    height: 180px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+#skyline-image {
+    width: 1890px;
+    
+    display: block;
+    min-width: 1280px;
+    height: auto;
+    position: absolute;
+    top: 850px;
+    left: 0px;
+}
+#contact-form-area {
+    height: 35em;
+    background-color: #f7f8f9;
+    width: 100%;
+    margin: 0 auto;
+}
+#form {
+    width: 30%;
+    margin: 0 auto;
+    height: 20em;
+    display: block;
+}
+.formlabels {
+    font-family: Arial;
+    font-size: 16px;
+    width: 100%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    
+    box-sizing: border-box;
+}
+input[type=text]:focus {
+    border: 1px solid purple;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: purple;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    
+    cursor: pointer;}
+#partners-section-footer-image {
+    width: 100%;
+    height: 100px;
+}
+#page-footer {
+    background-image: url(site-footer.png);
+    height: 12em;
+    width: 100%;
+    vertical-align: middle;
+}
+#footer-content-area {
+    width: 80%;
+    margin: 0 auto;
+    height: 2.5em;
+    position: relative;
+    vertical-align: middle;
+}
+#footer-icon-area {
+    width: 80%;
+    margin: 0 auto;
+    height: 2.5em;
+    position: relative;
+}
+.footer-text {
+    color: white;
+    font-family: Arial;
+    width: 20%;
+    margin: auto;
+    float: left;
+}
+.footer-icons {
+    height:auto;
+    width: 2em;
+}
+#links-list {
+    float: right;
+    list-style: none;
+    margin-top: 0;
+    width: 40%;
+    z-index: 2;
+}
+.footer-links-text {
+    display: inline;
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+}
+.footer-links-text:hover {
+    border-bottom: 2px solid white;
+}
+@media screen and (max-width: 1730px) {
+    #contact-details-content {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1445px) {
+    #banner-content-area {
+        width: 80%;
+    }
+    #links-list {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1305px) {
+    #contact-details-content {
+        width: 80%;
+    }
+    .footer-text {
+        width: 35%;
+    }
+}
+@media screen and (max-width: 1265px) {
+    #banner-content-area {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1015px) {
+    .banner-nav-list {
+        display: none;
+    }
+    #links-list {
+        width: 70%;
+    }
+    #footer-content-area {
+        width: 100%;
+    }
+}

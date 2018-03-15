@@ -77,7 +77,6 @@ body { width: 98%;
 #wrapper {
     margin-left: auto;
     margin-right: auto;
-    min-width: 1000px;
     
     }
 #main-div {
@@ -173,17 +172,6 @@ h2 {
     }
 a {
     text-decoration: none;
-}
-#submit-button {
-    height: 1.75em;
-    width: 1.75em;
-    text-align: center;
-}
-#mag-icon {
-    height: 1.75em;
-    width: 1.75em;
-    display: block;
-    padding-left: 20px;
 }
 #input-field1 {
     width: 20em;
@@ -371,12 +359,12 @@ a {
     margin: 0 auto;
 }
 #skyline-image {
-    width: 1295px;
+    width: 100%;
 }
 #skyline-edges {
     width: 100%;
-    position: absolute;
-    top: 2900px;
+    position: relative;
+    top: 0px;
     left: 0px;
     
 
@@ -493,68 +481,5 @@ td {
 }
 .footer-links-text:hover {
     border-bottom: 2px solid white;
-}
-@media screen and (max-width: 1480px) {
-    #main-div-search {
-        width: 85%;
-    }
-    #links-list {
-        width: 60%;
-    }
-}
-@media screen and (max-width: 1300px) {
-    #footer-content-area {
-        width: 100%;
-    }
-    #footer-icon-area {
-        width: 100%;
-    }
-    #main-nav {
-        width: 70%;
-    }
-    #main-banner {
-        width: 100%;
-    }
-    #featured-jobs-first-group {
-        width: 100%;
-    }
-    #featured-jobs-second-group {
-        width: 100%;
-    }
-    #featured-jobs-third-group {
-        width: 100%;
-    }
-    #featured-jobs-list {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 1215px) {
-    #main-div-search {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 1200px) {
-    .footer-text {
-        width: 30%;
-    }
-}
-@media screen and (max-width: 1050px) {
-    
-    #third-job {
-        left: 725px;
-    }
-}
-@media screen and (max-width: 1000px) {
-    #third-job {
-        display: none;
-    }
-    #input-field1 {
-        width: 15em;
-    }
-    
-    #main-div-focus-subsection2 {
-        width: 50%;
-    }
-    }
 }
 

@@ -1,11 +1,45 @@
 <html>
     <head>
         <meta charset="utf-8" lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hunter Dunning</title>
         <link rel="stylesheet" type="text/css" href="home.css">
+        <script type="text/javascript">
+            function on() {
+                document.getElementById("menu-overlay").style.display = "block";
+                document.getElementById("body").style.overflow = "hidden";
+                        }
+
+            function off() {
+            document.getElementById("menu-overlay").style.display = "none";
+            document.getElementById("body").style.overflow = "scroll";    
+                    }
+        </script>
+        
+        
     </head>
     
-    <body>
+    <body id="body">
+        <div id="menu-overlay">
+            <div id="overlay-banner">
+                <img id="overlay-close" alt="overlay-close" src="overlay-close-button.png" onClick="off()"/>
+            </div>
+            <div id="menu-container">
+                <div id="menu-container-menu">
+                    <ul id="menu-list">
+                        <a href="home.html"><li class="menu-items">Home</li></a>
+                        <li class="menu-items">Jobs</li>
+                        <li style="border-bottom: 2px solid white" class="menu-items">Employers</li>
+                        <li class="menu-items2">About Hunter Dunning</li>
+                        <li class="menu-items2">Partners</li>
+                        <li class="menu-items2">Latest News</li>
+                        <a href="contactus.html"><li class="menu-items2">Contact Us</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div id="wrapper">
         <div id="main-div">
             <br />
             <br />
@@ -17,7 +51,7 @@
                     <li class="main-nav-links">+44 (0) 1243 779789</li>&nbsp;&nbsp;&nbsp;&nbsp;
                     <li class="main-nav-links" class="nav-hover"><a class="nav-links" href="#">Jobs</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
                         <li class="main-nav-links" class="nav-hover"><a class="nav-links" href="#">Employers</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <li class="main-nav-links"> .... </li>
+                    <li id="overlay-icon-container" class="main-nav-links"><img id="menu-overlay-icon" alt="menu-icon" src="menu-icon.png" onClick="on()"/></li>
                 </ul>
                 </nav>
                 
@@ -39,7 +73,7 @@
                     <input id="input-field2" class="input-fields" type="text" placeholder="Job Type" />
                     <input id="input-field3" class="input-fields" type="text" placeholder="Category" />
                     <input id="input-field4" class="input-fields" type="text" placeholder="Location" />
-                    <input id="submit-button" type="submit" value="" />
+                    <button id="submit-button" type="button"><img id="mag-icon" alt="mag-icon" src="mag-glass.png"></button>
                 </div>
                 <br />
                 <br />
@@ -47,10 +81,10 @@
                     <div id="main-div-focus-subsection1">
                         <h3 class="focus-link-headings">Focus on a Category</h3>
                         <ul id="focus-links-sub1-category1">
-                            <li class="sub-links"><a href="#">Architects</a></li>
-                            <li class="sub-links"><a href="#">Interior Designers</a></li>
-                            <li class="sub-links"><a href="#">Senior Appointments</a></li>
-                            <li class="sub-links"><a href="#">BIm Jobs</a></li>
+                            <li class="sub-links"><a class="link-hover" href="#">Architects</a></li>
+                            <li class="sub-links"><a class="link-hover" href="#">Interior Designers</a></li>
+                            <li class="sub-links"><a class="link-hover" href="#">Senior Appointments</a></li>
+                            <li class="sub-links"><a class="link-hover" href="#">BIM Jobs</a></li>
                         </ul>
                         <ul id="focus-links-sub1-category2">
                             <li class="sub-links"><a class="link-hover" href="#">Architectural Assistants</a></li>
@@ -169,7 +203,74 @@
             </div>
             <div id="featured-jobs-footer-image">
                 <img id="skyline-image" alt="skyline image" src="skyline-half-centered.png" />
-            </div> 
+                
+            </div>
+            <img id="skyline-edges" alt="skyline edges" src="content-with-skyline-edges.png" />
+        </div>
+        <div id="main-partners-div">
+            <br />
+            <br />
+            <br />
+            <div id="partners-section">
+                <div id="partners-section-left">
+                    <p class="partners-headings">WE WORK WITH SOME GREAT COMPANIES</p>
+                    <br />
+                    <p class="partners-subtext">Private Practices, Public Sector Authorities, Consultancies & Housing Associations. Come see who we work with.</p>
+                    <br />
+                    <p class="partners-links"><a href="#">See all of them</a>&nbsp;.&nbsp;<a href="#">Become one of them</a></p>
+                    <br />
+                    <p class="partners-subheadings">WHAT DO OUR CLIENTS & PARTNERS SAY?</p>
+                    <p class="partners-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed ligula mi. Aliquam at ipsum lectus. Nulla consectetur magna erat. Praesent cursus diam tristique elit mattis, ut bibendum nulla egestas. Curabitur id urna ante</p>
+                </div>
+                <div id="partners-section-right">
+                    <table id="partners-table">
+                        <tr>
+                            <td><img class="company-logo-image" alt="company-logo" src="company_logo.png"/></td>
+                            <td><img class="company-logo-image" alt="company-logo" src="company_logo.png"/></td>
+                            <td><img class="company-logo-image" alt="company-logo" src="company_logo.png"/></td>
+                        </tr>
+                        <tr>
+                            <td><img class="company-logo-image" alt="company-logo" src="company_logo.png"/></td>
+                            <td><img class="company-logo-image" alt="company-logo" src="company_logo.png"/></td>
+                            <td><img class="company-logo-image" alt="company-logo" src="company_logo.png"/></td>
+                        </tr>
+                        <tr>
+                            <td><img class="company-logo-image" alt="company-logo" src="company_logo.png"/></td>
+                            <td><img class="company-logo-image" alt="company-logo" src="company_logo.png"/></td>
+                            <td><img class="company-logo-image" alt="company-logo" src="company_logo.png"/></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <br />
+            <img id="partners-section-footer-image" alt="footer-edges" src="footer-edges-grey.png" />
+        </div>
+        <div id="page-footer">
+            <br />
+            <br />
+            <br />
+            <br />
+            
+            
+            <div id="footer-icon-area">
+                <img class="footer-icons" alt="icon" src="facebook-icon.png" />
+                <img class="footer-icons" alt="icon" src="instagram-con.png" />
+                <img class="footer-icons" alt="icon" src="google-plus-icon.png" />
+                <img class="footer-icons" alt="icon" src="linkedin-icon.png" />
+            </div>
+            <div id="footer-content-area">
+                <p class="footer-text">&copy; Copyright Hunter Dunning Ltd</p>
+                <div id="footer-links">
+                <ul id="links-list">
+                    <a href="contactus.html"><li class="footer-links-text">Contact Us</li></a>&nbsp;&nbsp;
+                    <a href="#"><li class="footer-links-text">Architecture Jobs</li></a>&nbsp;&nbsp;
+                    <a href="#"><li class="footer-links-text">Terms & Conditions</li></a>&nbsp;&nbsp;
+                    <a href="#"><li class="footer-links-text">Privacy Policy</li></a>
+                </ul>
+                </div>
+            
+            </div>
+        </div>
         </div>
     </body>
 </html>

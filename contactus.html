@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="utf-8" lang="en" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="contactus.css" >
+        
+        <script type="text/javascript">
+            function goHome() {
+                window.location.replace("home.html");
+            }
+            function on() {
+                document.getElementById("menu-overlay").style.display = "block";
+                document.getElementById("body").style.overflow = "hidden";
+                document.getElementById("main-banner").style.position = "static";
+                        }
+
+            function off() {
+            document.getElementById("menu-overlay").style.display = "none";
+                document.getElementById("body").style.overflow = "scroll";
+                    }
+        </script>
+    </head>
+    
+    <body id="body">
+        <div id="menu-overlay">
+            <div id="overlay-banner">
+                <img id="overlay-close" alt="overlay-close" src="overlay-close-button.png" onClick="off()"/>
+            </div>
+            <div id="menu-container">
+                <div id="menu-container-menu">
+                    <ul id="menu-list">
+                        <a href="home.html"><li class="menu-items">Home</li></a>
+                        <li class="menu-items">Jobs</li>
+                        <li style="border-bottom: 2px solid white" class="menu-items">Employers</li>
+                        <li class="menu-items2">About Hunter Dunning</li>
+                        <li class="menu-items2">Partners</li>
+                        <li class="menu-items2">Latest News</li>
+                        <a href="contactus.html"><li class="menu-items2">Contact Us</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper">
+            <div id="main-banner">
+                <div id="banner-content-area">
+                    <br />
+                    <img id="hunter-dunning-logo" alt="hunter dunning logo" src="hunter-dunning-logo.png" onClick="goHome()"/>
+                    <ul id="banner-nav">
+                        <li id="banner-number" class="banner-nav-list">+44 (0) 1243 779789</li>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#"><li class="banner-nav-list">Jobs</li></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#"><li class="banner-nav-list">Employers</li></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#"><li id="overlay-icon-container"><img id="menu-overlay-icon" alt="menu-icon" src="menu-icon.png" onClick="on()"/></li></a>
+                    </ul>
+                </div>
+            </div>
+            <div id="main-content-area">
+                <div id="contact-details-content">
+                    <h1>FOR PROFESSIONAL,PERSONAL & TAILORED RECRUITMENT SUPPORT, WE'RE HERE</h1>
+                    <br />
+                    <p class="contact-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non mauris urna. Ut dictum interdum laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam cursus pretium lectus, non tempus nulla lacinia at. Etiam enim arcu, efficitur vel mauris quis, tempus maximus justo. Mauris vel laoreet velit, sed porta erat. Praesent et libero diam. Aenean quis elementum dui. Mauris eu accumsan dui, sit amet tempus lectus. Praesent suscipit urna ut erat aliquam pretium. Quisque vehicula scelerisque velit, eget aliquet velit vulputate eget. </p>
+                    <br />
+                    <span style="display: inline"><img id="clock-icon" alt="clock-icon" src="clock-icon.png" /><p style="line-height: 0px;" class="contact-subtext">&nbsp;&nbsp;We're open from <b>8:30am to 5:30pm Mon - Thurs & 8:30am to 5:00pm Fridays</b></p></span>
+                    <div id="left-section">
+                        <br />
+                        <br />
+                        <img id="address-icon" alt="address-icon" src="address-icon.png" />
+                        <ul id="address">
+                            <li class="address-lines">Hunter Dunning</li>
+                            <li class="address-lines">City Gates</li>
+                            <li class="address-lines">2-4 Southgate</li>
+                            <li class="address-lines">Chichester</li>
+                            <li class="address-lines">West Sussex</li>
+                            <li class="address-lines">PO19 8DJ</li>
+                        </ul>
+                    </div>
+                    
+                    <div id="right-section">
+                        <br />
+                        <br />
+                        <img id="phone-icon" alt="phone-icon" src="phone-icon.png" /><p class="address-lines" style="line-height: 0px;">&nbsp;&nbsp;+44 (0) 1243 779789</p>
+                        <br />
+                        <br />
+                        <img id="mail-icon" alt="mail-icon" src="mail-icon.png" /><p class="address-lines">&nbsp;&nbsp;For general enquiries email: <a href="#">consult@hunterdunning.co.uk</a></p>
+                        <br />
+                        <img id="mail-icon" alt="mail-icon" src="mail-icon.png" /><p class="address-lines">&nbsp;&nbsp;For accounts email: <a href="#">accounts@hunterdunning.co.uk</a></p>
+                    </div>
+                    <div id="contact-footer-image">
+                        
+                    </div>
+                </div>
+                <div id="contact-footer-image">
+                 <img id="skyline-image" alt="skyline-image" src="skyline-full-width.png" />       
+            </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div id="contact-form-area">
+                <br />
+                <br />
+                <div id="form">
+                    <form id="contact-form">
+                        <label class="formlabels" for="name"><b>Name</b></label>
+                        <input id="name" name="name" type="text" placeholder="John Smith"/>
+                        <label class="formlabels" for="emailaddress"><b>Email Address</b></label>
+                        <input id="emailaddress" name="emailaddress" type="text" placeholder="john.smith@gmail.com"/>
+                        <label class="formlabels" for="phonenumber"><b>Phone Number</b></label>
+                        <input id="phonenumber" name="phonenumber" type="text" placeholder="07123 456789"/>
+                        <label class="formlabels" for="additionaltext"><b>Additional Text</b></label>
+                        <input id="additionaltext" name="additionaltext" type="text" />
+                        <input type="submit" value="Submit Your Message" />
+                    </form>
+                </div>
+            </div>
+            
+            <div id="page-footer">
+            <img id="partners-section-footer-image" alt="footer-edges" src="footer-edges-grey.png" />
+           <div id="footer-icon-area">
+                <img class="footer-icons" alt="icon" src="facebook-icon.png" />
+                <img class="footer-icons" alt="icon" src="instagram-con.png" />
+                <img class="footer-icons" alt="icon" src="google-plus-icon.png" />
+                <img class="footer-icons" alt="icon" src="linkedin-icon.png" />
+            </div>
+            <div id="footer-content-area">
+                <p class="footer-text">&copy; Copyright Hunter Dunning Ltd</p>
+                <div id="footer-links">
+                <ul id="links-list">
+                    <a href="contactus.html"><li class="footer-links-text">Contact Us</li></a>&nbsp;&nbsp;
+                    <a href="#"><li class="footer-links-text">Architecture Jobs</li></a>&nbsp;&nbsp;
+                    <a href="#"><li class="footer-links-text">Terms & Conditions</li></a>&nbsp;&nbsp;
+                    <a href="#"><li class="footer-links-text">Privacy Policy</li></a>
+                </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
